@@ -1,6 +1,5 @@
 package controllers;
 
-
 import java.io.IOException;
 import java.sql.Timestamp;
 
@@ -59,5 +58,4 @@ public class UpdateServlet extends HttpServlet {
             response.sendRedirect(request.getContextPath() + "/index");
         }
     }
-
 }
